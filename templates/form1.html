@@ -1,0 +1,98 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM TAG 2</title>
+        <style>
+         fieldset{
+            background-color: aqua;
+            margin-top: 20 px;
+            margin-bottom: 30px;
+            margin-right: 100px;
+            margin-left: 100px;
+           padding: 30px;
+          border: 5px double rgb(241, 7, 147);
+         }
+           h1{
+            
+          color: rgb(207, 12, 148);
+         text-align: center;
+           }
+         
+        </style>
+    </head>
+    <body>
+      
+        <div>
+         <h1>STUDENT REGISTARTION FORM</h1>
+            <fieldset>
+                 <table>
+                   
+                    <tr>
+                       <td><label>First name</label></td>
+                       <td><input type="text">(max 30 charaters a-z And A-Z)</td>
+                    </tr>
+                    <tr>
+                        <td><label>Last name</label></td>
+                        <td> <input type="text">(max 30 charaters a-z And A-Z)</td>
+                     </tr>
+                     <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="text"></td>
+                     </tr>
+                     <tr>
+                        <td><label>DATE OF Birth</label></td>
+                        <td><input type="date"></td>
+                     </tr>
+                     <tr>
+                        <td><label>Moblie Number</label></td>
+                        <td><input type="text"> (10 digit number)</td>
+                     </tr>
+                     <tr>
+                        <td> <label>Gender</label></td> 
+                    <td><input type="radio">Male</input>
+                  <input type="radio">Female</input></td>
+                </tr>
+                       
+                     </tr>
+                     <tr>
+                        <td><label>Addres</label></td>
+                        <td><textarea></textarea></td>
+                     </tr>
+
+ <tr>
+                        <td><label>City</label></td>
+                        <td><input type="text">(max 30 charaters a-z And A-Z)</td>
+                     </tr>
+                     <td><label>Pincode</label></td>
+                     <td><input type="text">(6 digit number)</td>
+                  </tr>
+                  <td><label>State</label></td>
+                  <td><input type="text">(max 30 charaters a-z And A-Z)</td>
+               </tr>
+               <td><label>Country</label></td>
+               <td>
+                  <select>
+                     <option>....select....</option>
+                     <option>india</option>
+                     <option>usa</option>
+                     <option>chinna</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td><label>Hobbies</label></td>
+               <td><br><br>cricket<input type="checkbox">
+               dancing<input type="checkbox">
+               music<input type="checkbox"></br></br>
+               others<input type="checkbox"> <input type="text">
+               
+               
+               </td>
+            </tr>
+                 </table>
+            </fieldset>
+        </div>
+    </body>
+</html>
